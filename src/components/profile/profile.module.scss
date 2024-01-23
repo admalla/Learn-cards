@@ -1,0 +1,57 @@
+.ProfileRoot {
+  width: 420px;
+  padding: 33px 36px 29px;
+  background-color: var(--color-dark-700);
+}
+
+.ProfileHeader {
+  color: var(--color-light-100);
+  text-align: center;
+}
+
+//TODO не получется не использовать вложенность почему-то
+.ProfileAvatarWrapper {
+  position: relative;
+  margin: 25px 0 6px;
+
+  .ProfileAvatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+  }
+
+  .ProfileAvatarButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+
+    min-width: 24px;
+    min-height: 24px;
+
+    background: var(--color-dark-300);
+  }
+}
+
+.ProfileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProfileInfoWrapper {
+  position: relative;
+}
+
+.ProfileNicknameButton {
+  position: absolute;
+  top: 50%;
+  right: -1.5rem;
+  transform: translateY(-50%);
+}
+
+.ProfileEmail {
+  padding-bottom: 16px;
+}

@@ -1,0 +1,28 @@
+.SignUpRoot {
+  width: 420px;
+  padding: 33px 36px 29px;
+  background-color: var(--color-dark-700);
+}
+
+.SignUpHeader {
+  margin-bottom: 27px;
+}
+
+.SignUpForm {
+  width: 100%;
+}
+
+.SignUpFormButton {
+  margin-top: 30px;
+}
+
+.SignUpText {
+  margin: 20px 0 11px;
+  color: var(--color-light-900);
+}
+
+.SignUpLoginLink {
+  margin: 0;
+  padding: 0;
+  text-decoration-line: underline;
+}
